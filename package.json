@@ -1,0 +1,36 @@
+{
+  "name": "blog-code-references",
+  "version": "1.0.0",
+  "description": "This branch contains code mentioned in the article [HERE](https://dev.to/yvad60/how-to-create-a-react-app-without-using-create-react-app-a-step-by-step-guide-30nl)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "webpack ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yvad60/blog-code-references.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yvad60/blog-code-references/issues"
+  },
+  "homepage": "https://github.com/Yvad60/blog-code-references#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
