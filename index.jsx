@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './src/App.js';
+// eslint-disable-next-line import/extensions
+import App from './src/App.jsx';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
