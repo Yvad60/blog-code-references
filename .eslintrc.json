@@ -1,9 +1,15 @@
 {
 	"env": {
 		"browser": true,
-		"es2021": true
+		"es2021": true,
+		"jest/globals": true
 	},
-	"extends": ["plugin:react/recommended", "airbnb", "prettier"],
+	"extends": [
+		"plugin:react/recommended",
+		"plugin:jest/recommended",
+		"airbnb",
+		"prettier"
+	],
 	"parserOptions": {
 		"ecmaFeatures": {
 			"jsx": true
@@ -11,6 +17,6 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
-	"plugins": ["react"],
+	"plugins": ["react", "jest"],
 	"rules": {}
 }
