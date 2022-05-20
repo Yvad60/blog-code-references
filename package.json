@@ -1,0 +1,25 @@
+{
+  "name": "blog-code-references",
+  "version": "1.0.0",
+  "description": "This branch contains code mentioned in the article named `Redux explained from a Beginner's prespective (simplified)`. The article is linked [HERE](https://dev.to/yvad60/redux-explained-from-a-beginner-perspective-simplified-413g)",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "redux": "^4.2.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yvad60/blog-code-references.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yvad60/blog-code-references/issues"
+  },
+  "homepage": "https://github.com/Yvad60/blog-code-references#readme"
+}
