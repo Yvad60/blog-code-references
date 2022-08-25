@@ -1,0 +1,23 @@
+{
+  "name": "blog-code-references",
+  "version": "1.0.0",
+  "description": "This branch contains code mentioned in the article named `Setup Jasmine testing Framework in Node JS`. The article is linked [HERE](https://dev.to/yvad60/setup-jasmine-testing-framework-a-step-by-step-guide-37ad-temp-slug-662700)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yvad60/blog-code-references.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yvad60/blog-code-references/issues"
+  },
+  "homepage": "https://github.com/Yvad60/blog-code-references#readme",
+  "devDependencies": {
+    "jasmine": "^4.3.0"
+  }
+}
