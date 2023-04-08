@@ -10,17 +10,34 @@ const MySwiper = () => {
     const params = {
       navigation: true,
       pagination: true,
-      // These are new...
+      //add this
       injectStyles: [
         `
           .swiper-button-next,
           .swiper-button-prev {
             background-color: white;
+            background-position: center;
+            background-size: 40px;
+            background-repeat: no-repeat;
             padding: 8px 16px;
             border-radius: 100%;
             border: 2px solid black;
             color: red;
           }
+
+          .swiper-button-prev {
+            background-image: url("/box-arrow-in-left.svg");
+          }
+
+          .swiper-button-next {
+            background-image: url("/box-arrow-in-right.svg");
+          }
+          
+          .swiper-button-next::after,
+          .swiper-button-prev::after {
+            content: "";
+          }
+
           .swiper-pagination-bullet{
             width: 40px;
             height: 40px;
